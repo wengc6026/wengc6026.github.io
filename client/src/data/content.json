@@ -1,0 +1,26 @@
+{
+  "gameSaves": [
+    {
+      "id": "1",
+      "title": "薩爾達傳說：曠野之息",
+      "platform": "Nintendo Switch",
+      "playtime": "120 小時",
+      "progress": 85,
+      "lastPlayed": "2024-11-05",
+      "screenshotUrl": "/attached_assets/generated_images/Zelda_game_screenshot_94d59746.png",
+      "content": "# 薩爾達傳說：曠野之息\n\n這是一款開放世界動作冒險遊戲，由任天堂開發。我在 Nintendo Switch 上已經遊玩了 120 小時，目前進度為 85%。\n\n## 遊戲體驗\n\n這款遊戲的開放世界設計非常出色，玩家可以自由探索海拉爾大陸的各個角落。每個地區都有獨特的風景和挑戰。\n\n### 主要成就\n\n- 解鎖了所有神廟\n- 收集了大部分克洛格果實\n- 完成了主線劇情\n- 正在挑戰大師模式\n\n## 遊戲進度\n\n目前已經完成了大部分主線任務，正在探索支線內容和收集要素。遊戲的探索性非常強，每次遊玩都能發現新的驚喜。\n",
+      "slug": "薩爾達傳說-曠野之息"
+    },
+    {
+      "id": "2",
+      "title": "艾爾登法環",
+      "platform": "PC",
+      "playtime": "95 小時",
+      "progress": 72,
+      "lastPlayed": "2024-11-03",
+      "screenshotUrl": "/attached_assets/generated_images/Elden_Ring_screenshot_51187c3a.png",
+      "content": "# 艾爾登法環\n\n這是一款由 FromSoftware 開發的動作角色扮演遊戲。我在 PC 上已經遊玩了 95 小時，目前進度為 72%。\n\n## 遊戲特色\n\n這款遊戲結合了魂系遊戲的挑戰性和開放世界的探索性，創造出獨特的遊戲體驗。\n\n### 遊戲進度\n\n- 已擊敗大部分主要 Boss\n- 探索了大部分地區\n- 正在收集傳說武器和裝備\n- 準備挑戰最終 Boss\n\n## 遊戲心得\n\n遊戲的難度設計非常平衡，雖然挑戰性高，但每次擊敗強敵都很有成就感。開放世界的設計讓玩家可以自由選擇探索路線。\n",
+      "slug": "艾爾登法環"
+    }
+  ]
+}

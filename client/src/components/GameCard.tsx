@@ -1,30 +1,23 @@
+import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Calendar } from "lucide-react";
+import type { GameSave } from "@/types/content";
 
 interface GameCardProps {
-  title: string;
-  platform: string;
-  playtime: string;
-  progress: number;
-  lastPlayed: string;
-  screenshot: string;
+  gameSave: GameSave;
 }
 
-export default function GameCard({
-  title,
-  platform,
-  playtime,
-  progress,
-  lastPlayed,
-  screenshot,
-}: GameCardProps) {
+export default function GameCard({ gameSave }: GameCardProps) {
+  const { title, platform, playtime, progress, lastPlayed, screenshotUrl, slug } = gameSave;
+  
   return (
-    <Card className="overflow-hidden hover-elevate group transition-all duration-300" data-testid={`card-game-${title}`}>
+    <Link href={`/game-save/${slug}`}>
+      <Card className="overflow-hidden hover-elevate group transition-all duration-300 cursor-pointer" data-testid={`card-game-${title}`}>
       <div className="relative aspect-video overflow-hidden">
         <img
-          src={screenshot}
+          src={screenshotUrl}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -67,5 +60,6 @@ export default function GameCard({
         </div>
       </div>
     </Card>
+    </Link>
   );
 }

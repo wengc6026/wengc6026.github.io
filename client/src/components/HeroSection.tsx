@@ -1,5 +1,6 @@
-import heroBackground from "@assets/generated_images/Tech_grid_hero_background_6642f117.png";
 import { ChevronDown } from "lucide-react";
+
+const heroBackground = "/attached_assets/generated_images/Tech_grid_hero_background_6642f117.png";
 
 export default function HeroSection() {
   const scrollToGames = () => {
